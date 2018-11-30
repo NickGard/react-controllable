@@ -1,9 +1,9 @@
 # react-controllable
 
-https://badgen.net/npm/v/@ngard/react-controllable
-https://badgen.net/bundlephobia/minzip/@ngard/react-controllable
-https://badgen.net/travis/NickGard/react-controllable
-https://badgen.net/badge/license/MIT/blue
+[![source](https://badgen.net/npm/v/@ngard/react-controllable)](https://www.npmjs.com/package/@ngard/react-controllable)
+[![bundle size](https://badgen.net/bundlephobia/minzip/@ngard/react-controllable)](https://bundlephobia.com/result?p=@ngard/react-controllable)
+[![build status](https://badgen.net/travis/NickGard/react-controllable)](https://travis-ci.org/NickGard/react-controllable)
+[![license](https://badgen.net/badge/license/MIT/blue)](https://badgen.net/badge/license/MIT/blue)
 
 A higher-order-component to add overwritable internal state to a react component. The wrapped
 will act like a controlled component (for example, an `<input />`).
