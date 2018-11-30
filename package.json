@@ -1,5 +1,5 @@
 {
-  "name": "@ntgard/react-controllable",
+  "name": "@ngard/react-controllable",
   "version": "1.0.0",
   "description": "A higher-order-component for making components controllable.",
   "main": "index.js",

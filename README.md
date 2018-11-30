@@ -6,13 +6,13 @@ will act like a controlled component (for example, an `<input />`).
 ## Installation
 
 ```
-npm install --save @ntgard/react-controllable
+npm install --save @ngard/react-controllable
 ```
 
 or, if you are using Yarn
 
 ```
-yarn add @ntgard/react-controllable
+yarn add @ngard/react-controllable
 ```
 
 ## Use
