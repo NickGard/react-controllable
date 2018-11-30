@@ -1,5 +1,10 @@
 # react-controllable
 
+https://badgen.net/npm/v/@ngard/react-controllable
+https://badgen.net/bundlephobia/minzip/@ngard/react-controllable
+https://badgen.net/travis/NickGard/react-controllable
+https://badgen.net/badge/license/MIT/blue
+
 A higher-order-component to add overwritable internal state to a react component. The wrapped
 will act like a controlled component (for example, an `<input />`).
 
@@ -54,6 +59,7 @@ A React component.
 
 <br/>
 <b>Return Value</b>
+<br/>
 <details>
 <summary>Controllable Component</summary>
 A new React component that can either be controlled or uncontrolled. This component also accepts
@@ -79,6 +85,7 @@ const initialState = { count: 0 };
 const mapControllersToState = {
   inc: ({ count }) => ({ count + 1 }),
   dec: ({ count }) => ({ count - 1 }),
+  reset: { count: 0 },
 }
 const ControllableCounter = controllable(initialState, mapControllersToState)(Counter);
 
