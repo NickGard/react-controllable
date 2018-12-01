@@ -2,7 +2,7 @@
   "name": "@ngard/react-controllable",
   "version": "1.0.0",
   "description": "A higher-order-component for making components controllable.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest --env=jsdom",
     "test:watch": "jest --env=jsdom --watch",
